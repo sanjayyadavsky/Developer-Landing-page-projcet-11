@@ -41,12 +41,12 @@ nav{
     cursor: pointer;
 }
 #register{
-    margin-left: 10px;
-     padding: 19px 40px;
-     background: linear-gradient(white, #ffffff) padding-box, linear-gradient(186deg, #09bbf8, #0672ec) border-box;
-     border-radius: 8.5px;
-     border: 1px solid transparent;
-     cursor: pointer;
+    margin-left: 17px;
+    padding: 17px 21px;
+    background: linear-gradient(white, #ffffff) padding-box, linear-gradient(186deg, #09bbf8, #0672ec) border-box;
+    border-radius: 8.5px;
+    border: 1px solid transparent;
+    cursor: pointer;
 }
 .register{
     background: linear-gradient(186deg, #45c4f8 0%, #167cee 100%);
@@ -373,20 +373,38 @@ padding: 90px 0px;
 }
 footer>div{
     display: flex;
+    justify-content: space-between;
+    font-family: sans-serif;
+    margin-top: 30px;
+}
+.menu-logo >p{
+    font-size: 14px;
 }
 .footer-logo{
-    width: 40%;
+    width: 39%;
 }
 .menu{
     width: 15%;
+    margin: 22px 0px;
 }
-.link{
-    width: 15%;
+.footer-heading{
+    margin-bottom: 20px;
 }
-.overview{
-    width: 15%;
+.footer-item{
+    color: #000;
+    margin: 20px 0px 0px 0px;
 }
-.social-media{
-    width: 15%;
-    
+.footer-item>a{
+    color: #000;
+    padding: 20px 5px;
+    cursor: pointer;
+}
+.social-media>h1{
+    font-size: 25px;
+    text-align: center;
+}
+.social-media > img{
+    width: 157px;
+    height: 60px;
+    padding-top: 10px;
 }
