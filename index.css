@@ -24,7 +24,7 @@ nav{
     width: 80%;
     position: relative;
     left: 6%;
-    top: 28px;
+    margin: auto;
 }
 .logo>img{
     width: 160px;
@@ -211,7 +211,6 @@ nav{
     padding: 20px 0px;
 }
 .hosting>p{
-    /* margin-right: 20px; */
     color: #7a7c82d1;
     width: 90%;
 }
@@ -407,4 +406,7 @@ footer>div{
     width: 157px;
     height: 60px;
     padding-top: 10px;
+}
+.nav-icon{
+    display: none;
 }
